@@ -1,0 +1,51 @@
+FASE 2 DO PROJETO A PARTIR DO STYLE.CSS
+BOX-Digital/
+│
+├── index.html
+├── login.html
+├── produtos.html
+├── simulador.html
+├── contato.html
+│
+├── css/
+│   ├── style.css          ✅ Concluído
+│   ├── home.css
+│   ├── produtos.css
+│   ├── login.css
+│   ├── simulador.css
+│   ├── contato.css
+│   └── responsive.css
+│
+├── js/
+│   ├── menu.js
+│   ├── formulario.js
+│   ├── login.js
+│   ├── simulador.js
+│   └── home.js (opcional)
+│
+├── assets/
+│
+└── README.md
+
+HOME.CSS
+Banner
+
+↓
+
+Produtos
+
+↓
+
+Vantagens
+
+↓
+
+Aplicativo
+
+↓
+
+FAQ
+
+↓
+
+Contato rápido (CTA)

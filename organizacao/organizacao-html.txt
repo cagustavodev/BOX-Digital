@@ -1,0 +1,267 @@
+BOX-Digital/
+│
+├── index.html                 // Página inicial
+├── login.html                 // Login
+├── produtos.html              // Produtos e serviços
+├── simulador.html             // Simulador de empréstimo
+├── contato.html               // Página de contato
+│
+├── css/
+│   │
+│   ├── global.css             // Reset, fontes, variáveis de cores,
+│   │                          // header, footer, botões e estilos reutilizáveis
+│   │
+│   ├── home.css               // Página inicial
+│   ├── login.css
+│   ├── produtos.css
+│   ├── simulador.css
+│   ├── contato.css
+│   │
+│   └── responsive.css         // Responsividade geral
+│
+├── js/
+│   │
+│   ├── main.js                // Funções reutilizadas em todas as páginas
+│   ├── menu.js                // Menu hambúrguer
+│   ├── login.js               // Login fictício
+│   ├── simulador.js           // Simulador de empréstimo
+│   ├── contato.js             // Validação do formulário
+│   └── home.js                // Pequenas animações da Home (opcional)
+│
+├── assets/
+│   │
+│   ├── images/
+│   │   ├── logo/
+│   │   │      logo-box.png
+│   │   │
+│   │   ├── banner/
+│   │   │      hero-home.png
+│   │   │      login-banner.png
+│   │   │
+│   │   ├── produtos/
+│   │   │      cartao.png
+│   │   │      emprestimo.png
+│   │   │      investimento.png
+│   │   │      seguro.png
+│   │   │
+│   │   └── extras/
+│   │          celular.png
+│   │          background.jpg
+│   │
+│   └── icons/
+│         menu.svg
+│         olho.svg
+│         usuario.svg
+│         telefone.svg
+│         email.svg
+│
+└── README.md (Opcional)
+
+
+==================================
+ORGANIZAÇÃO DE DESENVOLVIMENTO GERAL
+
+Planejamento
+
+        ↓
+
+HTML
+
+        ↓
+
+Revisão
+
+        ↓
+
+CSS Global
+
+        ↓
+
+CSS Individual
+
+        ↓
+
+Responsividade
+
+        ↓
+
+JavaScript
+
+        ↓
+
+Refinamentos
+
+        ↓
+
+Entrega
+
+
+==========================
+HOME:
+HEADER
+│
+BANNER
+│
+PRODUTOS
+│
+VANTAGENS
+│
+APLICATIVO
+│
+FAQ
+│
+CONTATO RÁPIDO
+│
+FOOTER
+
+
+===================================
+LOGIN:
+HEADER
+│
+LOGIN
+├── LOGIN-HEADER
+│   ├── TÍTULO
+│   └── DESCRIÇÃO
+│
+├── LOGIN-FORM
+│   ├── INPUT CPF
+│   ├── INPUT SENHA
+│   └── BOTÃO ENTRAR
+│
+└── FORGOT-PASSWORD
+│
+FOOTER
+
+
+=================================
+PRODUTOS:
+HEADER
+│
+BANNER
+├── TÍTULO
+├── DESCRIÇÃO
+└── IMAGEM
+│
+PRODUTOS
+├── CARTÕES
+├── EMPRÉSTIMOS
+├── INVESTIMENTOS
+└── SEGUROS
+│
+DIFERENCIAIS
+├── SEGURANÇA
+├── ATENDIMENTO
+├── PRATICIDADE
+└── TECNOLOGIA
+│
+CTA (Call To Action)
+├── TEXTO
+└── BOTÃO "ABRIR CONTA" ou "SIMULAR AGORA"
+│
+FOOTER
+
+E
+
+main
+│
+├── section.banner
+│
+├── section.produtos
+│     │
+│     ├── produto-card
+│     ├── produto-card
+│     ├── produto-card
+│     └── produto-card
+│
+├── section.diferenciais
+│     │
+│     ├── diferencial-card
+│     ├── diferencial-card
+│     ├── diferencial-card
+│     └── diferencial-card
+│
+└── section.cta
+
+=============================================
+SIMULADOR
+HEADER
+│
+BANNER
+│
+SIMULADOR
+│   ├── Texto explicativo
+│   ├── Formulário
+│   │     ├── Valor desejado
+│   │     ├── Quantidade de parcelas
+│   │     ├── Taxa de juros (opcional)
+│   │     └── Botão "Simular"
+│   │
+│   └── Resultado da simulação
+│
+INFORMAÇÕES
+│
+CTA
+│
+FOOTER
+
+E html
+
+main
+|
+├── header
+│
+├── section.banner
+│
+├── section.simulador
+│      │
+│      ├── div.simulador-container
+│      │
+│      ├── div.simulador-text
+│      │
+│      ├── form.simulador-form
+│      │
+│      └── div.resultado
+│
+├── section.informacoes
+│
+├── section.cta
+│
+└── footer
+
+===================================
+CONTATO:
+HEADER
+│
+BANNER
+│
+FORMULÁRIO DE CONTATO
+│
+INFORMAÇÕES DE CONTATO
+│
+FAQ
+│
+FOOTER
+
+E 
+
+CONTATO:
+
+BANNER
+↓
+FORMULÁRIO DE CONTATO
+• Cabeçalho
+• Formulário
+• Grupo de Inputs
+• Botão Enviar
+↓
+INFORMAÇÕES DE CONTATO
+• Endereço
+• Telefone
+• E-mail
+• Horário de atendimento
+↓
+FAQ
+• Perguntas frequentes
+↓
+FOOTER

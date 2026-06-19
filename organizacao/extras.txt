@@ -1,0 +1,19 @@
+</section>
+        <section class="produtos">
+
+        </section>
+        <section class="vantagens">
+
+        </section>
+        <section class="faq">
+
+        </section>
+
+        <section class="banner">
+            <div class="banner-text">
+                <p></p>
+            </div>
+            <div class="banner-image">
+                <img src="./imagens/imagem_fundo_1.png" alt="Aplicativo BOX Digital">
+            </div>
+        </section>

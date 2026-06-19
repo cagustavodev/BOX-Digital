@@ -1,0 +1,192 @@
+/* ==========================================================================
+    1. BANNER CONTATO
+   ========================================================================== */
+.banner {
+    background: var(--white);
+    padding: 5rem 0;
+    text-align: center; /* Centraliza o texto institucional de contato */
+}
+
+.banner-text h1 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.banner-text p {
+    color: #555555;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+}
+
+/* ==========================================================================
+    2. SEÇÃO FORMULÁRIO DE CONTATO
+   ========================================================================== */
+.contato {
+    background-color: var(--background-color);
+    padding: 3rem 0;
+}
+
+.contato .container {
+    max-width: 650px; /* Deixa o formulário centralizado e confortável para leitura */
+}
+
+.contato-header {
+    text-align: center;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.contato-header h2 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.contato-header p {
+    color: #666666;
+}
+
+.contato-form {
+    background-color: var(--white);
+    padding: 3rem 2.5rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-md);
+}
+
+.contato-form textarea {
+    resize: vertical; /* Impede o usuário de deformar o layout para os lados */
+    min-height: 120px;
+}
+
+.contato-form .btn-primary {
+    width: 100%;
+    padding: 14px;
+}
+
+/* ==========================================================================
+    3. SEÇÃO INFORMAÇÕES DE CONTATO
+   ========================================================================== */
+.informacoes {
+    background-color: var(--white);
+    padding: 3rem 0;
+}
+
+.informacoes h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3.5rem;
+    margin-top: 0;
+}
+
+.informacoes-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas para alinhar com o padrão do projeto */
+    gap: 2rem;
+}
+
+.informacao-card {
+    background-color: var(--background-color);
+    padding: 2rem 1.5rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    text-align: center;
+    transition: var(--transition-smooth);
+}
+
+.informacao-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-sm);
+}
+
+.informacao-card h3 {
+    font-size: 1.2rem;
+    color: var(--secondary-color);
+    margin-bottom: 0.8rem;
+}
+
+.informacao-card p {
+    font-size: 0.95rem;
+    color: var(--text-color);
+    line-height: 1.5;
+}
+
+/* ==========================================================================
+    4. SEÇÃO FAQ
+   ========================================================================== */
+.faq {
+    background-color: var(--background-color);
+    padding: 3rem 0;
+}
+
+.faq h2 {
+    text-align: center;
+    color: var(--primary-color);
+    margin-bottom: 3.5rem;
+    margin-top: 0;
+}
+
+.faq-list {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.faq-item {
+    background-color: var(--white);
+    padding: 1.8rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.faq-item h3 {
+    font-size: 1.15rem;
+    color: var(--text-color);
+    margin-bottom: 0.6rem;
+}
+
+.faq-item p {
+    color: #555555;
+    font-size: 0.95rem;
+}
+
+/* ==========================================================================
+    5. SEÇÃO CTA (Chamada para Ação)
+   ========================================================================== */
+.cta {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 5rem 0;
+    text-align: center;
+}
+
+.cta-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    margin-bottom: 2rem;
+    opacity: 0.9;
+}
+
+/* Botão invertido para dar contraste no fundo azul */
+.cta .btn-primary {
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+
+.cta .btn-primary:hover {
+    background-color: var(--background-color);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
+}

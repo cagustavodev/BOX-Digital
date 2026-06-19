@@ -1,0 +1,76 @@
+/* ==========================================================================
+    TELA DE LOGIN
+   ========================================================================== */
+.login {
+    min-height: calc(100vh - 160px); /* Desconta o tamanho do header e footer */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1rem;
+    background-color: var(--background-color);
+}
+
+.login-container {
+    background-color: var(--white);
+    width: 100%;
+    max-width: 450px; /* Largura ideal para formulários de login profissional */
+    padding: 3rem 2.5rem;
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-lg); /* Sombra marcante para dar destaque ao bloco */
+}
+
+.login-header {
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.login-header h1 {
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.login-header p {
+    color: #666666;
+    font-size: 0.95rem;
+}
+
+/* Fallback para suportar o nome alternativo usado neste HTML */
+.input-group {
+    margin-bottom: 1.5rem;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+/* Ajuste do botão ocupando a largura total do card */
+.login-form .btn-primary {
+    width: 100%;
+    margin-top: 1rem;
+    padding: 14px;
+}
+
+/* Link de recuperação de senha */
+.forgot-password {
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.forgot-password a {
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+    font-weight: 500;
+    transition: var(--transition-smooth);
+    font-weight: bold;
+}
+
+.forgot-password a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}

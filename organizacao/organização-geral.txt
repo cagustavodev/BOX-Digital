@@ -1,0 +1,88 @@
+BOX-Digital/
+│
+├── index.html                 // Página Inicial
+├── produtos.html              // Produtos e Serviços
+├── simulador.html             // Simulador de Empréstimo
+├── login.html                 // Área do Cliente
+├── contato.html               // Contato
+│
+├── css/
+│   │
+│   ├── style.css              // Estilos globais
+│   │                          // • Reset
+│   │                          // • Variáveis
+│   │                          // • Configurações gerais
+│   │                          // • Tipografia
+│   │                          // • Container
+│   │                          // • Botões
+│   │                          // • Formulários
+│   │                          // • Header
+│   │                          // • Footer
+│   │                          // • Classes utilitárias
+│   │
+│   ├── home.css               // Página Inicial
+│   │                          // • Banner
+│   │                          // • Produtos
+│   │                          // • Vantagens
+│   │                          // • Aplicativo
+│   │                          // • FAQ
+│   │                          // • CTA
+│   │
+│   ├── produtos.css           // Página Produtos
+│   │                          // • Banner
+│   │                          // • Cards
+│   │                          // • Diferenciais
+│   │                          // • CTA
+│   │
+│   ├── simulador.css          // Página Simulador
+│   │                          // • Banner
+│   │                          // • Formulário
+│   │                          // • Resultado
+│   │                          // • Informações
+│   │
+│   ├── login.css              // Página Login
+│   │                          // • Login
+│   │                          // • Formulário
+│   │
+│   ├── contato.css            // Página Contato
+│   │                          // • Banner
+│   │                          // • Formulário
+│   │                          // • Informações
+│   │                          // • FAQ
+│   │
+│   └── responsive.css         // Responsividade de todo o projeto
+│
+├── js/
+│   │
+│   ├── main.js                // Funções reutilizadas
+│   │                          // (caso realmente sejam compartilhadas)
+│   │
+│   ├── menu.js                // Menu responsivo
+│   │
+│   ├── home.js                // Animações simples da Home (opcional)
+│   │
+│   ├── login.js               // Login fictício
+│   │
+│   ├── simulador.js           // Lógica do simulador
+│   │
+│   └── contato.js             // Validação do formulário
+│
+├── assets/
+│   │
+│   ├── images/
+│   │   │
+│   │   ├── logo/
+│   │   │
+│   │   ├── banner/
+│   │   │
+│   │   ├── produtos/
+│   │   │
+│   │   ├── vantagens/
+│   │   │
+│   │   ├── aplicativo/
+│   │   │
+│   │   └── extras/
+│   │
+│   └── icons/
+│
+└── README.md

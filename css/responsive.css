@@ -1,0 +1,30 @@
+/* Para telas menores (Celulares e Tablets de até 768px) */
+@media (max-width: 768px) {
+    
+    /* Faz o menu do cabeçalho ficar vertical ou quebrar linha se não couber */
+    header .container {
+        flex-direction: column;
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+    nav ul {
+        gap: 1rem;
+    }
+
+    /* Transforma as 4 colunas de diferenciais em apenas 1 coluna empilhada */
+    .diferenciais-cards ul {
+        grid-template-columns: 1fr;
+    }
+
+    /* Reduz o tamanho das caixas de formulário para caber certinho no celular */
+    .simulador-form, .resultado {
+        width: 90%;
+        padding: 1.5rem;
+    }
+
+    .produto-card {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}

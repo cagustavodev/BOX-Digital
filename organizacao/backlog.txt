@@ -1,0 +1,122 @@
+=========================
+IDEIAS FUTURAS - BOX DIGITAL
+=========================
+
+GERAL
+□ Alterar o <title> de todas as páginas para seguir o padrão:
+  - Início | BOX Digital
+  - Produtos | BOX Digital
+  - Login | BOX Digital
+  - Simulador | BOX Digital
+  - Contato | BOX Digital
+
+□ Revisar todos os textos para manter linguagem institucional.
+□ Evitar abreviações como "vc", "pq", etc.
+□ Padronizar todos os botões utilizando a classe .btn-primary.
+
+----------------------------------
+
+PRODUTOS
+
+□ Adicionar imagens em todos os cards.
+□ Utilizar imagens com o mesmo tamanho (300x300px ou 320x320px).
+□ Alternar posição dos cards no CSS:
+  Card 1 → Imagem | Texto
+  Card 2 → Texto | Imagem
+  Card 3 → Imagem | Texto
+  Card 4 → Texto | Imagem
+
+□ Transformar os marcadores das listas em ícones (✔) utilizando CSS (::before).
+
+□ Definir destino dos botões "Saiba mais":
+  - Criar páginas individuais futuramente OU
+  - Redirecionar para páginas já existentes.
+
+----------------------------------
+
+DIFERENCIAIS
+
+□ Transformar os diferenciais em cards.
+□ Adicionar ícones para cada diferencial.
+
+Sugestões:
+
+🕒 Atendimento 24 horas
+
+📱 Aplicativo moderno
+
+🔒 Segurança nas transações
+
+⚙ Tecnologia de ponta
+
+----------------------------------
+
+CTA
+
+□ Adicionar uma imagem ao lado do texto.
+□ Criar um layout dividido em duas colunas:
+  Texto | Imagem
+
+----------------------------------
+
+CSS
+
+□ Utilizar Flexbox para organizar os cards.
+□ Utilizar gap ao invés de margin sempre que possível.
+□ Criar efeitos de hover nos botões.
+□ Criar hover nos cards.
+□ Adicionar sombras suaves.
+□ Utilizar bordas arredondadas.
+□ Criar transições suaves (transition).
+
+----------------------------------
+
+IDENTIDADE VISUAL
+
+□ Cada produto poderá possuir uma cor de destaque:
+
+Cartões → Roxo
+
+Empréstimos → Laranja
+
+Investimentos → Verde
+
+Seguros → Azul
+
+Mantendo a paleta principal do BOX Digital.
+
+----------------------------------
+
+RESPONSIVIDADE
+
+□ Criar menu hambúrguer.
+□ Empilhar os cards em telas pequenas.
+□ Ajustar tamanho das fontes.
+□ Ajustar espaçamentos.
+□ Ajustar imagens.
+
+----------------------------------
+
+JAVASCRIPT
+
+□ Login fictício.
+□ Mostrar/Ocultar senha.
+□ Menu hambúrguer.
+□ Simulador de empréstimos.
+□ Validação do formulário de contato.
+□ FAQ expansível.
+□ Scroll suave entre seções.
+
+==============================================
+
+CONTATO.HTML - Melhorias futuras
+
+• Adicionar ícones nos cards de contato.
+• Transformar o FAQ em acordeão utilizando JavaScript.
+• Exibir uma mensagem de sucesso após o envio do formulário.
+• Validar e-mail com JavaScript.
+• Limpar os campos automaticamente após o envio.
+• Adicionar animação ao botão "Enviar mensagem".
+• Inserir animação de entrada nas seções ao rolar a página.
+• Adicionar efeito hover nos cards de informações.
+• Adicionar contador de caracteres na textarea (opcional).

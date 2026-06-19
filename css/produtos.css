@@ -1,0 +1,112 @@
+/* BANNER PRINCIPAL DE PRODUTOS */
+.banner {
+    background: var(--white);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.banner-text h1 {
+    color: var(--primary-color);
+    margin-bottom: 0.5rem;
+}
+
+.banner-text p {
+    color: var(--text-color);
+    font-size: 1.1rem;
+}
+
+.banner-buttons {
+    margin-top: 1.5rem;
+}
+
+/* LISTA DE PRODUTOS */
+.produtos {
+    background-color: var(--background-color);
+    padding: 4rem 0;
+}
+
+.produto-card {
+    background: var(--white);
+    max-width: 800px;
+    margin: 0 auto 2rem auto; /* Centraliza e afasta do card de baixo */
+    padding: 2rem;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    box-shadow: var(--shadow-sm);
+}
+
+.produto-info h2 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.produto-info p {
+    margin-bottom: 1.0rem;
+    color: var(--text-color);
+}
+
+/* ETIQUETAS DE BENEFÍCIOS (Badges) */
+.produto-benefits {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.produto-benefits li {
+    background-color: rgba(0, 92, 169, 0.1); /* Azul bem clarinho */
+    color: var(--primary-color);
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: bold;
+}
+
+/* DIFERENCIAIS */
+.diferenciais {
+    background-color: var(--white);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.diferenciais h2 {
+    margin-bottom: 2.5rem;
+    color: var(--primary-color);
+}
+
+.diferenciais-cards ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+    gap: 1.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    list-style: none;
+}
+
+.diferenciais-card {
+    background-color: var(--background-color);
+    padding: 1.5rem;
+    border-radius: var(--radius-sm);
+    border-top: 4px solid var(--secondary-color); /* Linha laranja decorativa em cima*/
+    font-weight: 600;
+}
+
+/* CHAMADA PARA AÇÃO (CTA) */
+.cta {
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 4rem 0;
+    text-align: center;
+}
+
+.cta-container h2 {
+    margin-bottom: 1rem;
+}
+
+.cta-container p {
+    margin-bottom: 1.5rem;
+}
+.cta-container a{
+    background-color: var(--secondary-color);
+}

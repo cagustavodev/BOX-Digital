@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador | BOX Digital</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/simulador.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">BOX Digital</a>
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="index.html">Início</a>
+                    </li>
+                    <li>
+                        <a href="produtos.html">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="simulador.html">Simulador</a>
+                    </li>
+                    <li>
+                        <a href="contato.html">Contato</a>
+                    </li>
+                    <li>
+                        <a href="login.html">Entrar</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section class="banner">
+            <div class="banner-text">
+                <h1>Simule suas parcelas agora!</h1>
+                <p>
+                    Descubra uma estimativa das parcelas
+                    antes de contratar.
+                </p>
+
+                <div class="banner-buttons">
+                    <a href="#simulador" class="btn-primary">Simule agora</a>
+                </div>
+            </div>
+
+            <div class="banner-image">
+                <!-- <img src="/imagens/imagem_fundo_1.png" alt="Aplicativo BOX Digital"> -->
+            </div>
+        </section>
+
+        <!-- SIMULADOR -->
+        <section class="simulador" id="simulador">
+            <div class="container">
+                <div class="simulador-header">
+                    <h2>SIMULADOR DE EMPRÉSTIMOS</h2>
+                    <p>Preencha os valores abaixo para começar sua simulação</p>
+                </div>
+
+                <form class="simulador-form">
+
+                    <div class="grupo-input">
+                        <label for="valor">Valor desejado:</label>
+                        <input type="number" id="valor" name="valor" placeholder="10000" min="500" step="100" required>
+                    </div>
+                    <!-- required = precisa preencher obrigatório, step = aumenta de 100 em 100-->
+                    <div class="grupo-input">
+                        <label for="parcelas">Número de parcelas desejadas:</label>
+                        <select name="parcelas" id="parcelas" required>
+                            <option value="">Selecione</option>
+                            <option value="12">12x</option>
+                            <option value="24">24x</option>
+                            <option value="36">36x</option>
+                            <option value="48">48x</option>
+                            <option value="60">60x</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-input">
+                        <label for="juros">Taxa de Juros (%)</label>
+                        <input type="number" id="juros" name="juros" value="2.00" readonly>
+                    </div>
+                    <!-- readonly = valor fixo -->
+                    <button class="btn-primary" type="submit">
+                        Simular
+                    </button>
+                </form>
+
+                <section class="resultado">
+
+                    <h2>Resultado da simulação</h2>
+                    <div class="resultado-container">
+                        <!--  -->
+                    </div>
+
+                </section>
+
+            </div>
+        </section>
+
+        <section class="informacoes">
+            <h2>Por que utilizar nosso simulador?</h2>
+            <div class="informacoes-cards">
+                <div class="informacao-card">
+                    <h3>Resultado imediato</h3>
+                    <p>Veja uma estimativa das parcelas em poucos segundos.</p>
+                </div>
+                <div class="informacao-card">
+                    <h3>Sem compromisso</h3>
+                    <p>A simulação é gratuita e não gera nenhuma contratação.</p>
+                </div>
+                <div class="informacao-card">
+                    <h3>Planejamento financeiro</h3>
+                    <p>Compare diferentes valores e parcelas antes de decidir.</p>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="cta">
+            <div class="cta-container">
+
+                <h2>Ficou com alguma dúvida?</h2>
+                <p>Nossa equipe está pronta para ajudar você a <br> encontrar a melhor solução financeira.</p>
+
+            </div>
+            <a href="contato.html" class="btn-primary">
+                Fale conosco
+            </a>
+
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <h2>BOX Digital</h2>
+                <p>
+                    Sua vida financeira com mais praticidade e segurança.
+                </p>
+            </div>
+            <div class="footer-links">
+                <h3>Institucional</h3>
+                <a href="index.html">Início</a>
+                <a href="produtos.html">Produtos</a>
+                <a href="contato.html">Contato</a>
+                <a href="simulador.html">Simulador</a>
+            </div>
+            <div class="footer-suporte footer-links">
+                <h3>Suporte</h3>
+                <a href="contato.html">FAQ</a>
+            </div>
+            <div class="footer-contato">
+                <h3>Contato:</h3>
+                <p>(00) 0000-0000</p>
+            </div>
+            <p class="footer-warning">Este site foi desenvolvido para fins acadêmicos e não representa uma instituição
+                financeira real.</p>
+        </div>
+    </footer>
+    <script src="js/simulador.js"></script>
+</body>
+
+</html>

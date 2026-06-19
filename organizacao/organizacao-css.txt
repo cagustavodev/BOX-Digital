@@ -1,0 +1,64 @@
+ORGANIZAÇÃO CSS BOX Digital
+Reset
+
+↓
+
+Variáveis (:root)
+
+↓
+
+Body
+
+↓
+
+Container
+
+↓
+
+Tipografia
+
+↓
+
+Links
+
+↓
+
+Botões
+
+↓
+
+Header
+
+↓
+
+Navbar
+
+↓
+
+Footer
+
+↓
+
+Classes utilitárias
+
+PALETA:
+🟦 Cor principal	Azul institucional	#005CA9
+🟪 Cor secundária	Roxo	#5B4B8A
+🟧 Cor de destaque	Laranja	#F39200
+⬜ Branco	Branco	#FFFFFF
+◻️ Fundo claro	Cinza claro	#F5F7FA
+⬛ Texto	Cinza escuro	#1F2937
+
+ORGANIZAÇÃO VISUAL:
+Layout (display, width, padding)
+Bordas (border, border-radius)
+Cursor (cursor)
+Aparência (background, color)
+Texto (font-*)
+Animações (transition)
+
+TRANSITION
+ESTRUTURA = PROPRIEDADE,DURAÇÃO, VELOCIDADE
+Ex: color .3s ease
+
+tipos: ease, linear, ease-in, ease-out, ease-in-out,
