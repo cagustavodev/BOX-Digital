@@ -11,7 +11,7 @@ BANNER
     align-items: center;
     justify-content: space-between;
     gap: 4rem;
-    min-height: 70vh; /* Diminuímos um pouco para o conteúdo encaixar melhor */
+    min-height: 70vh; 
 }
 
 .banner-text {
@@ -23,7 +23,7 @@ BANNER
 
 .banner-text h1 {
     margin-bottom: 1.5rem;
-    color: var(--primary-color); /* Adiciona o azul do banco no título principal */
+    color: var(--primary-color); 
 }
 
 .banner-text p {
@@ -79,14 +79,14 @@ BANNER
     line-height: 1.6;
 }
 
-/* Grid Cards */
+
 .cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem;
 }
 
-/* Estilização dos cards */
+
 .card {
     background-color: var(--white);
     padding: 3.5rem 2rem; 
@@ -95,28 +95,27 @@ BANNER
     box-shadow: var(--shadow-sm);
     text-align: center;
     
-    /* Transições */
+    /* Transição */
     transition: transform .3s ease, box-shadow .3s ease, border-color .3s ease;
 }
 
-/* Elemento interno do card */
+
 .card h4 {
     color: var(--text-color);
     font-size: 1.5rem;
     font-weight: 600;
 }
 
-/* Efeito Hover Premium */
 .card:hover {
-    transform: translateY(-8px); /* Card sobe levemente */
-    box-shadow: var(--shadow-md); /* Sombra fica mais intensa e realista */
-    border-color: var(--primary-color); /* Borda ganha a cor do banco */
+    transform: translateY(-8px); /* Card sobe um poquinho */
+    box-shadow: var(--shadow-md);
+    border-color: var(--primary-color); 
 }
 
 /* ===============================================================
     3. CORREÇÃO FOOTER
     ============================================================*/
-/* a última linha (footer-warning) que estava desalinhada */
+/* a última linha (footer-warning) */
 .footer-warning {
     grid-column: span 4; /* ocupar toda a largura do rodapé */
     margin-top: 2rem;

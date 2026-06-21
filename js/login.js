@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.querySelector('.login-form');
     const cpfInput = document.getElementById('cpf');
 
-    // MÁSCARA DE CPF: Formata automaticamente enquanto o usuário digita (000.000.000-00)
+    // Formata automaticamente (000.000.000-00)
     cpfInput.addEventListener('input', (e) => {
         let value = e.target.value.replace(/\D/g, ''); // Remove tudo que não é número
         if (value.length > 11) value = value.slice(0, 11);
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // VALIDAÇÃO DE SUBMIT
     loginForm.addEventListener('submit', (e) => {
         e.target.checkValidity();
-        e.preventDefault(); // Impede o envio real para o servidor/recarregamento da tela
+        e.preventDefault(); // Impede o envio real, é ficticio
 
         const cpfClean = cpfInput.value.replace(/\D/g, '');
 
@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Simulação de login bem-sucedido (Acadêmico)
+        // Simulação de login bem-sucedido
         alert('Login simulado com sucesso! Redirecionando para a área logada fictícia.');
         window.location.href = 'index.html';
     });

@@ -28,7 +28,7 @@
 }
 
 .contato .container {
-    max-width: 650px; /* Deixa o formulário centralizado e confortável para leitura */
+    max-width: 650px; /* Deixa o formulário centralizado */
 }
 
 .contato-header {
@@ -55,7 +55,7 @@
 }
 
 .contato-form textarea {
-    resize: vertical; /* Impede o usuário de deformar o layout para os lados */
+    resize: vertical; /* Impede de alterar o layout para os lados */
     min-height: 120px;
 }
 
@@ -154,7 +154,7 @@
 }
 
 /* ==========================================================================
-    5. SEÇÃO CTA (Chamada para Ação)
+    5. SEÇÃO CTA/chamada para ação
    ========================================================================== */
 .cta {
     background-color: var(--primary-color);
@@ -179,7 +179,6 @@
     opacity: 0.9;
 }
 
-/* Botão invertido para dar contraste no fundo azul */
 .cta .btn-primary {
     background-color: var(--white);
     color: var(--primary-color);

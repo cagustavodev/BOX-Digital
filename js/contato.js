@@ -2,13 +2,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const contatoForm = document.querySelector('.contato-form');
 
     contatoForm.addEventListener('submit', (e) => {
-        e.preventDefault(); // Retém a página ativa para podermos disparar a resposta visual
-
+        e.preventDefault(); // Retém a página ativa 
         const nome = document.getElementById('nome').value;
 
-        // Feedback visual amigável ao usuário
+        // alerta de sucesso 
         alert(`Obrigado pelo contato, ${nome}! Sua mensagem fictícia foi enviada com sucesso para fins acadêmicos.`);
         
-        contatoForm.reset(); // Limpa todos os campos do formulário após o envio
+        contatoForm.reset(); // Limpa o formulário após o envio
     });
 });

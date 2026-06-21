@@ -50,13 +50,13 @@
     margin-top: 1rem;
 }
 
-/* QUADRO DE RESULTADOS (Onde o JS vai mexer) */
+/* QUADRO DE RESULTADOS (Onde o JS vai aparcer) */
 .resultado {
     max-width: 600px;
     margin: 3rem auto;
     background: var(--white);
     border-radius: var(--radius-lg);
-    border: 2px solid var(--secondary-color); /* Borda ROXA constante e firme */
+    border: 2px solid var(--secondary-color); 
     box-shadow: var(--shadow-md);
     padding: 2.5rem;
 }
@@ -76,13 +76,12 @@
     justify-content: space-between; /* Empurra o texto para a esquerda e o valor para a direita */
     align-items: center;
     padding: 1.2rem 0;
-    border-bottom: 1px solid var(--border-color); /* Linha fina cinza separando os itens */
+    border-bottom: 1px solid var(--border-color); 
 }
 
-/* Remove a linha divisória do último item */
 .resultado-item:last-child {
     border-bottom: none;
-    background-color: var(--background-color); /* Dá um destaque cinza claro no fundo da parcela */
+    background-color: var(--background-color); 
     padding: 1.2rem 1rem;
     border-radius: var(--radius-sm);
     margin-top: 1rem;
@@ -93,19 +92,16 @@
     color: var(--text-color);
 }
 
-/* Estilo para os valores da direita */
 .resultado-item span:last-child {
     font-weight: 700;
     color: var(--text-color);
     font-size: 1.1rem;
 }
 
-/* Destaque especial para o valor final da parcela */
 .resultado-item.parcela-final span:last-child {
-    color: var(--primary-color); /* Valor final em azul */
+    color: var(--primary-color); 
     font-size: 1.3rem;
 }
-
 
 /* SEÇÃO INFORMAÇÕES */
 
@@ -119,45 +115,42 @@
     color: var(--primary-color);
     text-align: center;
     font-size: 2.2rem;
-    margin-bottom: 2.5rem; /* Afasta o título principal dos cartões debaixo */
+    margin-bottom: 2.5rem; 
     font-weight: 700;
 }
 
-/* Alinha os 3 blocos de texto lado a lado em colunas */
+/* Alinhar os 3 blocos de texto lado a lado em colunas */
 .informacoes-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Divide a tela em 3 colunas iguais */
-    gap: 2rem; /* Cria um espaço elegante entre os cartões */
+    gap: 2rem; /* espaço entre eles */
     max-width: 1100px;
     margin: 0 auto;
     padding: 0 20px;
 }
 
-/* Estilização individual de cada caixinha/cartão */
+
 .informacao-card {
-    background-color: var(--background-color); /* Um fundo cinza bem clarinho */
-    padding: 2.5rem 2rem; /* Dá espaço interno para o texto não ficar espremido */
+    background-color: var(--background-color); 
+    padding: 2.5rem 2rem; 
     border-radius: var(--radius-md);
     border: 1px solid var(--border-color);
-    text-align: center; /* Centraliza o texto dentro do cartão */
+    text-align: center; 
     box-shadow: var(--shadow-sm);
     transition: transform 0.3s ease;
 }
 
-/* Efeito sutil ao passar o mouse por cima do cartão */
 .informacao-card:hover {
     transform: translateY(-5px);
 }
 
-/* Títulos internos: "Resultado imediato", "Sem compromisso", etc. */
 .informacao-card h3 {
     color: var(--primary-color);
     font-size: 1.3rem;
-    margin-bottom: 1rem; /* Afasta o título do parágrafo debaixo */
+    margin-bottom: 1rem; 
     font-weight: 600;
 }
 
-/* Parágrafos explicativos dos cartões */
 .informacao-card p {
     color: #555555;
     font-size: 1rem;

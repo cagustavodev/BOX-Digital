@@ -212,8 +212,6 @@ header .container{
     min-height:80px;
 }
 
-/* .logo{} */
-
 .logo a {
     font-size:1.8rem;
     font-weight:700;
@@ -293,10 +291,10 @@ footer .container h2{
 }
 
 .footer-links a:hover {
-    color: var(--primary-color); /* Link acende em azul ao passar o mouse */
+    color: var(--primary-color); 
 }
 
-/* Garante que o aviso acadêmico ocupe toda a largura inferior do rodapé */
+/* Garante que o aviso ocupe toda a largura inferior do rodapé */
 .footer-warning {
     grid-column: span 4;
     margin-top: 2rem;
@@ -305,11 +303,5 @@ footer .container h2{
     font-size: 0.85rem;
     color: #777777;
     text-align: center;
-    display: block !important; /*o aviso não tenta virar flex/centralizado */
+    display: block !important; /*o aviso não vira flex/centralizado */
 }
-
-/* ==========================
-UTILITÁRIOS
-========================== */
-
-/* Criar apenas quando houver repetição de estilos */

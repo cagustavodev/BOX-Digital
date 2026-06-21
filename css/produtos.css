@@ -45,7 +45,7 @@
     color: var(--text-color);
 }
 
-/* ETIQUETAS DE BENEFÍCIOS (Badges) */
+/* ETIQUETAS DE BENEFÍCIOS */
 .produto-benefits {
     display: flex;
     gap: 1rem;

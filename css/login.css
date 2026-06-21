@@ -17,7 +17,7 @@
     padding: 3rem 2.5rem;
     border-radius: var(--radius-lg);
     border: 1px solid var(--border-color);
-    box-shadow: var(--shadow-lg); /* Sombra marcante para dar destaque ao bloco */
+    box-shadow: var(--shadow-lg); 
 }
 
 .login-header {
@@ -37,7 +37,6 @@
     font-size: 0.95rem;
 }
 
-/* Fallback para suportar o nome alternativo usado neste HTML */
 .input-group {
     margin-bottom: 1.5rem;
 }
@@ -49,14 +48,12 @@
     font-size: 0.9rem;
 }
 
-/* Ajuste do botão ocupando a largura total do card */
 .login-form .btn-primary {
     width: 100%;
     margin-top: 1rem;
     padding: 14px;
 }
 
-/* Link de recuperação de senha */
 .forgot-password {
     text-align: center;
     margin-top: 0.5rem;

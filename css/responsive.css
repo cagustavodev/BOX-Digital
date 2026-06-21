@@ -12,12 +12,12 @@
         gap: 1rem;
     }
 
-    /* Transforma as 4 colunas de diferenciais em apenas 1 coluna empilhada */
+    /* Transforma as 4 colunas -> 1 coluna empilhada */
     .diferenciais-cards ul {
         grid-template-columns: 1fr;
     }
 
-    /* Reduz o tamanho das caixas de formulário para caber certinho no celular */
+    /* Reduz o tamanho das caixas de formulário  */
     .simulador-form, .resultado {
         width: 90%;
         padding: 1.5rem;
